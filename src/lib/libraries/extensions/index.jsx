@@ -1,6 +1,9 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
+import waniIconURL from './waniBoard/icon.png';
+import waniInsetIconURL from './waniBoard/icon-inset.svg';
+
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -47,6 +50,26 @@ import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 export default [
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="電気"
+                description="Name for the 'Electrical' extension"
+                id="gui.extension.electrical.name"
+            />
+        ),
+        extensionId: 'waniBoard',
+        iconURL: waniIconURL,
+        insetIconURL: waniInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="ワニボードの拡張機能です"
+                description="Description for the 'Music' extension"
+                id="gui.extension.electrical.description"
+            />
+        ),
+        featured: true
+    },
     {
         name: (
             <FormattedMessage
