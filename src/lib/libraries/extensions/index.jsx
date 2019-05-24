@@ -53,8 +53,8 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="電気"
-                description="Name for the 'Electrical' extension"
+                defaultMessage="電気回路制御"
+                description="電気回路制御"
                 id="gui.extension.electrical.name"
             />
         ),
@@ -63,8 +63,8 @@ export default [
         insetIconURL: waniInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="ワニボードの拡張機能です"
-                description="Description for the 'Music' extension"
+                defaultMessage="TFabWorks製スクラッチ用プログラム制御スイッチ「カシワニボード」で電気回路を制御する"
+                description="TFabWorks製スクラッチ用プログラム制御スイッチ「カシワニボード」で電気回路を制御する"
                 id="gui.extension.electrical.description"
             />
         ),
