@@ -1,8 +1,8 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import waniIconURL from './waniBoard/icon.png';
-import waniInsetIconURL from './waniBoard/icon-inset.svg';
+import waniIconURL from './waniBoard/banner.png';
+import waniInsetIconURL from './waniBoard/icon.svg';
 
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
