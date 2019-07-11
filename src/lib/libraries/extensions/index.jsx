@@ -63,8 +63,8 @@ export default [
         insetIconURL: waniInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="TFabWorks製スクラッチ用プログラム制御スイッチ「カシワニボード」で電気回路を制御する"
-                description="TFabWorks製スクラッチ用プログラム制御スイッチ「カシワニボード」で電気回路を制御する"
+                defaultMessage="TFabWorks製スクラッチ用プログラム制御スイッチで電気回路を制御する"
+                description="TFabWorks製スクラッチ用プログラム制御スイッチで電気回路を制御する"
                 id="gui.extension.electrical.description"
             />
         ),
